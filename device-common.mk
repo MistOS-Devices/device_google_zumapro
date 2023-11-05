@@ -55,3 +55,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Generic zram size setting, can be overridden in project-specific device.mk
 PRODUCT_VENDOR_PROPERTIES += \
 	vendor.zram.size?=50p
+BOARD_KERNEL_CMDLINE += bootloader.pixel.MTE_FORCE_ON
