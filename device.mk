@@ -51,6 +51,7 @@ include device/google/zumapro/dumpstate/item.mk
 
 TARGET_BOARD_PLATFORM := zumapro
 ALLOW_MISSING_DEPENDENCIES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 AB_OTA_POSTINSTALL_CONFIG += \
 	RUN_POSTINSTALL_system=true \
