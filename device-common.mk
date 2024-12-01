@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
 
 TARGET_SYSTEM_PROP := device/google/zumapro/system.prop
 
+# Quick Tap
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.columbus.use_ap_sensor=false
+
 # Set system properties identifying the chipset
 PRODUCT_VENDOR_PROPERTIES += ro.soc.manufacturer=Google
 TARGET_VENDOR_PROP += device/google/zumapro/vendor.prop
