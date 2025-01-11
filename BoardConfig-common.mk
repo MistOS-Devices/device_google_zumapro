@@ -43,9 +43,9 @@ BOARD_KERNEL_CMDLINE += swiotlb=noforce
 BOARD_KERNEL_CMDLINE += disable_dma32=on
 BOARD_KERNEL_CMDLINE += sysctl.kernel.sched_pelt_multiplier=4
 
-# Normal (non-_fullmte) builds should disable kasan
+# Normal (non-_fullmte) builds
 ifeq (,$(filter %_fullmte,$(TARGET_PRODUCT)))
-BOARD_KERNEL_CMDLINE += kasan=off
+BOARD_KERNEL_CMDLINE += kasan.fault=panic kasan.mode=asymm
 endif
 
 BOARD_BOOTCONFIG += androidboot.boot_devices=13200000.ufs
