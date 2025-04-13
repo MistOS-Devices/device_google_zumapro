@@ -6,3 +6,9 @@ allow pixelstats_vendor sysfs_display:lnk_file r_file_perms;
 allow pixelstats_vendor sysfs_pca:file rw_file_perms;
 
 allow pixelstats_vendor logbuffer_device:chr_file r_file_perms;
+
+allow pixelstats_vendor block_device:dir search;
+allow pixelstats_vendor sysfs_dm:dir { read open getattr };
+allow pixelstats_vendor sysfs_dm:file { read open getattr };
+allow pixelstats_vendor dm_device:blk_file getattr;
+allow pixelstats_vendor chre_socket:sock_file { write };
