@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "crdroidandroid/android_device_google_gs-common",
+    "target_path": "device/google/gs-common"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
+    "target_path": "vendor/google/faceunlock",
+    "remote": "crdroid-gitlab",
+    "branch": "16.0"
+  }
+]
