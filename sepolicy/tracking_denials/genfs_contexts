@@ -2,9 +2,10 @@
 # Broadcom
 genfscon sysfs /module/bcmdhd4389                                              u:object_r:sysfs_bcmdhd:s0
 
-# GPU
-genfscon sysfs /devices/platform/28000000.mali/hint_min_freq                   u:object_r:sysfs_gpu:s0
-genfscon sysfs /devices/platform/28000000.mali/power_policy                    u:object_r:sysfs_gpu:s0
+# Commented out due to duplicate conflicts
+## GPU
+#genfscon sysfs /devices/platform/28000000.mali/hint_min_freq                   u:object_r:sysfs_gpu:s0
+#genfscon sysfs /devices/platform/28000000.mali/power_policy                    u:object_r:sysfs_gpu:s0
 
 # sscoredump (per device)
 genfscon sysfs /devices/platform/bigocean/sscoredump/sscd_bigocean/report_count                         u:object_r:sysfs_sscoredump_subsystem_report_count:s0
