@@ -4,5 +4,23 @@
     "target_path": "device/google/gs-common",
     "remote": "github-non-los",
     "branch": "lineage-23.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
+    "target_path": "vendor/google/faceunlock",
+    "remote": "gitlab",
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_camera",
+    "target_path": "vendor/google/camera",
+    "remote": "gitlab",
+    "branch": "16.0"
+  },
+  {
+    "repository": "crdroidandroid/android_packages_apps_PixelParts",
+    "target_path": "packages/apps/PixelParts",
+    "remote": "github-non-los",
+    "branch": "16.0"
   }
 ]
