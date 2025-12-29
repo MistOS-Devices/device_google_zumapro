@@ -1,6 +1,8 @@
 [
   {
-    "repository": "android_device_google_gs-common",
-    "target_path": "device/google/gs-common"
+    "repository": "LineageOS/android_device_google_gs-common",
+    "target_path": "device/google/gs-common",
+    "remote": "github-non-los",
+    "branch": "lineage-23.0"
   }
 ]
