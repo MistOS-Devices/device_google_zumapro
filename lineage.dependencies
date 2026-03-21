@@ -1,6 +1,32 @@
 [
   {
-    "repository": "android_device_google_gs-common",
+    "repository": "LineageOS/android_device_google_gs-common",
+    "remote": "github",
+    "branch": "lineage-23.2",
     "target_path": "device/google/gs-common"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
+    "remote": "gitlab",
+    "branch": "16.0",
+    "target_path": "vendor/google/faceunlock"
+  },
+  {
+    "repository": "crdroidandroid/proprietary_vendor_google_camera",
+    "remote": "gitlab",
+    "branch": "16.0",
+    "target_path": "vendor/google/camera"
+  },
+  {
+    "repository": "crdroidandroid/android_packages_apps_PixelParts",
+    "remote": "github",
+    "branch": "16.0",
+    "target_path": "packages/apps/PixelParts"
+  },
+  {
+    "repository": "AxionAOSP/android_packages_apps_ViPER4AndroidFX",
+    "remote": "github",
+    "branch": "lineage-23.2",
+    "target_path": "packages/apps/ViPER4AndroidFX"
   }
 ]
