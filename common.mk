@@ -400,8 +400,8 @@ PRODUCT_PACKAGES += \
     TelephonyProviderOverlayProductZumapro
 
 PRODUCT_PACKAGES += \
-    FrameworkResOverlayLineageZumapro \
-    LineageSdkOverlayZumapro \
+    FrameworkResOverlayAospZumapro \
+    AospSdkOverlayZumapro \
     SettingsOverlayZumapro \
     SimpleDeviceConfigOverlayZumapro
 
