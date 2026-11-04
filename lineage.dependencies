@@ -35,6 +35,13 @@
     "override": true
   },
   {
+    "repository": "Trijal08/mist_system_core",
+    "remote": "github",
+    "branch": "17.0",
+    "target_path": "system/core",
+    "override": true
+  },
+  {
     "repository": "Trijal08/mist_build_soong",
     "remote": "github",
     "branch": "17.0",
@@ -61,7 +68,7 @@
     "target_path": "vendor/google/camera"
   },
   {
-    "repository": "crdroidandroid/android_packages_apps_PixelParts",
+    "repository": "crdroidandrid/android_packages_apps_PixelParts",
     "remote": "github",
     "branch": "17.0-redbull",
     "target_path": "packages/apps/PixelParts"
