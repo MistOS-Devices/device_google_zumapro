@@ -28,6 +28,13 @@
     "override": true
   },
   {
+    "repository": "LineageOS/android_frameworks_hardware_interfaces",
+    "remote": "github",
+    "branch": "lineage-24.0",
+    "target_path: "frameworks/hardware/interfaces",
+    "override": true
+  },
+  {
     "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
     "remote": "gitlab",
     "branch": "17.0",
