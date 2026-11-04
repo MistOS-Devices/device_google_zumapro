@@ -14,6 +14,20 @@
     "override": true
   },
   {
+    "repository": "LineageOS/android_hardware_google_pixel",
+    "remote": "github",
+    "branch": "lineage-24.0",
+    "target_path": "hardware/google/pixel",
+    "override": true
+  },
+  {
+    "repository": "LineageOS/android_hardware_google_pixel-sepolicy",
+    "remote": "github",
+    "branch": "lineage-24.0",
+    "target_path": "hardware/google/pixel-sepolicy",
+    "override": true
+  },
+  {
     "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
     "remote": "gitlab",
     "branch": "17.0",
