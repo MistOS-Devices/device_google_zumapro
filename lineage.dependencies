@@ -35,6 +35,20 @@
     "override": true
   },
   {
+    "repository": "Trijal08/mist_build_soong",
+    "remote": "github",
+    "branch": "17.0",
+    "target_path": "build/soong",
+    "override": true
+  },
+  {
+    "repository": "LineageOS/android_external_selinux",
+    "remote": "github",
+    "branch": "lineage-24.0",
+    "target_path": "external/selinux",
+    "override": true
+  },
+  {
     "repository": "crdroidandroid/proprietary_vendor_google_faceunlock",
     "remote": "gitlab",
     "branch": "17.0",
